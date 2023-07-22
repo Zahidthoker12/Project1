@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body{
+    font-family: "Red Rose", cursive;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../assets/background.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between ;
+    height: 15vh;
+    padding: 30px 50px 0px 50px;
+    
+}
+
+li{
+    list-style: none;
+    line-height: 40px;
+    
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFC233;
+    font-family: "Red Rose";
+    font-weight: 700;
+}
+
+.order-btn button{
+    padding: 0px 30px;
+    background-color:#FF515F;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    border: none;
+    font-family: "Red Rose";
+    line-height: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+}
+
+h1{
+    color: #FFC233;
+    text-align: center;
+    font-size: 100px;
+    line-height: 110px;
+    font-family:"Red Rose";
+    margin-bottom: 40px;
+}
+
+.readMenu-btn button{
+    padding: 14px 50px;
+    border: none;
+    background-color: #FF515F;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Red Rose";
+    cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+    justify-content: end;
+    height: 15vh;
+    padding: 0px 20px 20px 0px;
+}
